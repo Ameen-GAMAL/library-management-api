@@ -2,7 +2,7 @@
 
 This is a Dockerized RESTful API for managing a collection of books in a library.  
 The API supports adding, listing, searching, updating, and deleting books.  
-It also includes Swagger/OpenAPI documentation accessible through the `/api-docs` endpoint.
+It also includes Swagger documentation accessible through the `/api-docs` endpoint.
 
 ## Features
 
@@ -15,11 +15,13 @@ It also includes Swagger/OpenAPI documentation accessible through the `/api-docs
 
 ## Prerequisites
 
-- Docker installed on your machine.
+- Docker
+- Flask
+- flask-swagger-ui==3.36.0
 
 ## Building and Running the Docker Container
 
 1. Clone this repository:
-   ```bash
-   git clone <repository_url>
+
+   git clone https://github.com/Ameen-GAMAL/library-management-api.git
    cd library-management-api
